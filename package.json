@@ -22,7 +22,7 @@
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.1",
     "lazyload": "^2.0.0-rc.2",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
