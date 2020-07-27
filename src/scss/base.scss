@@ -1,0 +1,191 @@
+@mixin reset {
+//清除默认内外边距
+body,div,dl,dt,dd,ul
+,ol,li,h1,h2,h3,h4,h5
+,h6,pre,code,form,fieldset
+,legend,input,textarea,p,blockquote,th,td
+{margin:0;padding:0;}
+//设定默认大小字体
+body
+{
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+}
+//清除列表默认样式
+ul,ol,li
+{
+	list-style: none;
+}
+//清除默认下划线样式
+u,a
+{
+	text-decoration: none;
+	font-size: 16px;
+}
+//清除默认倾斜样式
+i,em
+{
+	font-style: normal;
+}
+/* 清除默认加粗样式 */
+b,strong
+{
+	font-weight: normal;
+}
+//清除标题标签默认样式
+h1,h2,h3,h4,h5,h6
+{
+	font-size: 16px;
+	font-weight: normal;
+}
+//清除图片边框
+img
+{
+	border: none;
+	display: block;
+}
+//清除input默认样式
+input
+{
+	border: none;
+	outline: none;
+}
+//清除textarea默认样式
+textarea
+{
+	outline: none;
+	border: none;
+	resize: none;
+}
+}
+
+@mixin class (){
+.fl
+{
+	float: left;
+}
+.fr
+{
+	float: right;
+}
+/* 边框样式 */
+.bd-none
+{
+	border: none!important;
+}
+.bdl-none
+{
+	border-left: none!important;
+}
+.bdr-none
+{
+	border-right: none!important;
+}
+.bdt-none
+{
+	border-top: none!important;
+}
+.bdb-none
+{
+	border-bottom: none!important;
+}
+.radiu-none
+{
+	border-radius: 0!important;
+}
+.tryTop
+{
+	width: 0;
+	height: 0;
+	border-left-color: transparent!important;
+	border-right-color: transparent!important;
+	border-top-color: transparent!important; 
+}
+.tryBtn
+{
+	width: 0;
+	height: 0;
+	border-bottom-color: transparent!important; 
+	border-left-color: transparent!important; 
+	border-right-color: transparent!important; 
+}
+/* 背景样式 */
+.bg-none
+{
+	background-image:none!important;
+}
+/* 填充样式 */
+.pdr-none
+{
+	padding-right:0!important;
+}
+.pdl-none
+{
+	padding-left:0!important;
+}
+.mgl-none
+{
+	margin-left:0!important;
+}
+.mgr-none
+{
+	margin-right:0!important;
+}
+/* 元素样式 */
+.among
+{
+	margin: 0 auto;
+}
+.H
+{
+	overflow: hidden;
+}
+.clearBoth::after
+{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+}
+.boxFull
+{
+	width: 100%;
+	height: 100%;
+}
+.fs12
+{
+	font-size: 12px;
+}
+.fs14
+{
+	font-size: 14px;
+}
+.fs16
+{
+	font-size: 16px;
+}
+.fs18
+{
+	font-size: 18px;
+}
+.fs20
+{
+	font-size: 20px;
+}
+.fs22
+{
+	font-size: 22px;
+}
+.fs24
+{
+	font-size: 24px;
+}
+.fwbold
+{
+	font-weight: bold;
+}
+}
+@include reset();
+@include class();
