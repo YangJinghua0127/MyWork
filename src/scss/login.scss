@@ -62,7 +62,7 @@ header{
         height: 570px;
         background-color: #fff1e8;
         padding-top: 30px;
-        background: url(../images/login_banner.png) no-repeat 130px 95px;
+        background: url(../images/login_banner_m.png) no-repeat 130px 95px;
         .login{
             width: 438px;
             min-height: 450px;
@@ -93,19 +93,28 @@ header{
                 form{
                     width: 100%;
                     height: 100%;
-                    p:nth-child(1){
+                    i{
+                        display: block;
+                        margin-top: 37px;
+                        padding-left: 40px;
+                        height: 16px;
+                        line-height: 16px;
+                        color: red;
+                        margin-bottom: 4px;
+                    }
+                    p:nth-of-type(1){
                         text-align: center;
                         input{
                             display: inline-block;
                             width: 360px;
                             height: 50px;
                             border: 1px solid #a5a5a5;
-                            margin: 37px 0 13px 0;
+                            margin: 0 0 13px 0;
                             font-size: 18px;
                             text-indent: 14px;
                         }
                     } 
-                    p:nth-child(2){
+                    p:nth-of-type(2){
                         text-align: center;
                         input{
                             display: inline-block;
@@ -116,10 +125,10 @@ header{
                             text-indent: 14px;
                         }
                     } 
-                    p:nth-child(3){
+                    p:nth-of-type(3){
                         margin: 27px 0 0 37px;
                     }
-                    p:nth-child(4){
+                    p:nth-of-type(4){
                         margin: 28px 27px 0 0;
                         a:first-child{
                             color: #5e5e5e;
@@ -135,7 +144,7 @@ header{
                             padding-left: 14px;
                         }
                     }
-                    p:nth-child(5){
+                    p:nth-of-type(5){
                         text-align: center;
                         input{
                             display: inline-block;
@@ -151,7 +160,7 @@ header{
                             margin-top:17px;
                         }
                     }
-                    p:nth-child(6){
+                    p:nth-of-type(6){
                         margin: 40px 0 0 0;
                         padding-left: 38px;
                         a{

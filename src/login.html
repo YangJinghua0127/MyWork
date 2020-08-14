@@ -26,8 +26,8 @@
         <div class="bannerCon con">
             <div class="login">
                 <div class="loginTop">
-                    <span class="select">扫码登录</span>
-                    <span>账户登录</span>
+                    <span class="select" data-fix="loginMark">扫码登录</span>
+                    <span data-fix="loginPwd">账户登录</span>
                 </div>
                 <div class="loginMark">
                     <div>
@@ -40,10 +40,11 @@
                 </div>
                 <div class="loginPwd">
                     <form action="">
+                        <i></i>
                         <p><input type="text" id="uname" placeholder="手机号码/用名邮箱/门店会员卡号"></p>
                         <p><input type="password" id="upwd" placeholder="密码"></p>
                         <p class="fl"><input type="checkbox" id="autolog"><label for="autolog">自动登录</label></p>
-                        <p class="fr"><a href="javascript:void(0)">忘记密码</a><a href="javascript:void(0)">免费注册</a></p>
+                        <p class="fr"><a href="javascript:void(0)">忘记密码</a><a href="./register.html">免费注册</a></p>
                         <p><input type="submit" value="登录"></p>
                         <p><a href="javascript:void(0)">手机号快速登录（支持门店预留手机）</a></p>
                     </form>

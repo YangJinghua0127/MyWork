@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 提示样式 -->
+    <div class="alert">
+        <div class="alertCon">
+            <img src="./images/car_delet.png" alt="">
+            <ul>
+                <li>恭喜你</li>
+                <li>添加购物车成功</li>
+                <li><span>确定</span><span>跳转购物车</span></li>
+            </ul>
+            <span>×</span>
+        </div>
+    </div>
+    <!-- 广告 -->
+    <div class="adv">
+        <div class="advCon con" draggable="false"><img src="./images/index_adv.jpg" alt=""><span>X</span></div>
+    </div>
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="topCon con">
+            <p>
+                <a href="javascript:void(0)">国美会员<em class="icon iconfont icon-sanjiaoxia"></em></a>
+                <a href="./login.html">登录</a>
+                <a href="./register.html">注册有礼</a>
+                <a href="javascript:void(0)">退出</a>
+            </p>
+            <ul>
+                <li><a href="javascript:void(0)">我的订单</a></li>
+                <li><a href="javascript:void(0)">我的国美<em class="icon iconfont icon-sanjiaoxia"></em></a></li>
+                <li>
+                    <a href="javascript:void(0)">企业采购<em class="icon iconfont icon-sanjiaoxia"></em></a>
+                    <div class="lev2">
+                        <img src="./images/index_lev2_1.png" alt="">
+                    </div>
+                </li>
+                <li><a href="javascript:void(0)">服务中心<em class="icon iconfont icon-sanjiaoxia"></em></a></li>
+                <li><a href="javascript:void(0)">网站导航<em class="icon iconfont icon-sanjiaoxia"></em></a></li>
+                <li><a href="javascript:void(0)">手机国美<em class="icon iconfont icon-sanjiaoxia"></em></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- logo区域 -->
+    <div class="logo">
+        <div class="logoCon con">
+            <h1><img src="./images/index_logo.png" alt=""></h1>
+            <div class="search">
+                <p><span>商品<em class="icon iconfont icon-xiangxia"></em></span><input type="text"><i>搜索</i></p>
+                <ul>
+                    <li><a href="javascript:void(0)">格力空调自营</a></li>
+                    <li><a href="javascript:void(0)">海尔冰箱</a></li>
+                    <li><a href="javascript:void(0)">华为手机</a></li>
+                    <li><a href="javascript:void(0)">洗衣机</a></li>
+                    <li><a href="javascript:void(0)">伊利牛奶</a></li>
+                    <li><a href="javascript:void(0)">美的空调</a></li>
+                    <li><a href="javascript:void(0)">创维电视</a></li>
+                    <li><a href="javascript:void(0)">电饭煲</a></li>
+                </ul>
+            </div>
+            <a href="./car.html" class="car">
+                <span>0</span>
+                <em class="icon iconfont icon-gouwuche"></em>
+                <i>我的购物车</i>
+                <em class="icon iconfont icon-sanjiaoxia"></em>
+            </a>
+        </div>
+    </div>
+    <!-- 店铺logo区 -->
+    <div class="shoplogo">
+        <div class="shoplogoCon con">
+            <img src="./images/shoplogo.webp" alt="">
+            <p></p>
+        </div>
+    </div>
+    <!-- nav区域 -->
+    <nav>
+        <div class="navCon con">
+            <ul>
+                <li><a href="javascript:void(0)">首页</a></li>
+                <li><a href="javascript:void(0)">热销商品</a></li>
+                <li><a href="javascript:void(0)">掌柜推荐</a></li>
+                <li><a href="javascript:void(0)">美食爆款</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 店铺地址导航 -->
+    <div class="shoplead">
+        <div class="shopleadCon con">
+            <ul>
+            </ul>
+            <div>
+                <i>拓臻食品专营店</i>
+                <ul>
+                    <li><img src="./images/heartfull.png" alt=""></li>
+                    <li><img src="./images/heartfull.png" alt=""></li>
+                    <li><img src="./images/heartfull.png" alt=""></li>
+                    <li><img src="./images/heartbet.png" alt=""></li>
+                    <li>4.6分</li>
+                </ul>
+                <span><em class="iconfont icon-kefu"></em>在线客服</span>
+                <span>收藏店铺<em class="iconfont icon-xiangxia"></em></span>
+            </div>
+        </div>
+    </div>
+    <!-- 商品详情 -->
+    <div class="goodsec">
+        <div class="goodsecCon con">
+            <div class="tobig">
+                <div id="middleImg">
+                    <img class="boxFull" />
+                    <div id="middleArea"></div>
+                </div>
+                <div id="smallArea">
+                    <ul class="clearBoth">
+                    </ul>
+                    <em class="iconfont icon-changyongicon-2"></em>
+                    <em class="iconfont icon-changyongicon-1"></em>
+                </div>
+                <div id="bigArea">
+                    <img id="bigImg" />
+                </div>
+                <div class="goodsid">
+                    <span>商品编号：<i></i></span>
+                    <ul>
+                        <li><em class="iconfont icon-quanquanb"></em><a href="javascript:void(0)">分享</a></li>
+                        <li><em class="iconfont icon-aixin1"></em><a href="javascript:void(0)">提心愿</a></li>
+                        <li><em class="iconfont icon-jiahao"></em><a href="javascript:void(0)">收藏</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mid">
+                <h2></h2>
+                <div>
+                    <p><i>国美价</i><span></span><a href="javascript:void(0)">降价通知</a></p>
+                    <span>好评100%</span>
+                    <span>337人评价</span>
+                </div>
+                <ul>
+                    <li><span>特&nbsp;&nbsp;&nbsp;&nbsp;色</span><img src="./images/goodserver.png" alt=""></li>
+                    <li><span>送&nbsp;&nbsp;&nbsp;&nbsp;至</span><i>北京市朝阳区朝外街道<em
+                                class="iconfont icon-xiangxia"></em></i><i>有货</i><i>支持</i><i>免运费</i></li>
+                    <li><span>服&nbsp;&nbsp;&nbsp;&nbsp;务</span> <i>由<span></span>发货并负责售后服务</i></li>
+                    <li>
+                        <span>颜&nbsp;&nbsp;&nbsp;&nbsp;色</span>
+                    </li>
+                    <li>
+                        <span>版&nbsp;&nbsp;&nbsp;&nbsp;本</span>
+                    </li>
+                </ul>
+                <ul class="addcar clearBoth">
+                    <li>
+                        <span>1</span>
+                        <span>+</span>
+                        <span class="disable">-</span>
+                    </li>
+                    <li>
+                        加入购物车
+                    </li>
+                    <li>
+                        <em class="iconfont icon-sweep"></em>
+                        手机下单
+                    </li>
+                </ul>
+                <p>温馨提示<span>1.不支持7天无理由退货；</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- 类似商品 -->
+    <div class="advs con">
+        <div>
+            <p>类似商品</p>
+        </div>
+        <ul>
+            <li class="select">
+                <div>
+                    <img src="./images/buy_add_1_1.jpg" alt="">
+                    <p>孩之宝无糖薄荷糖70克润喉糖（新疆西藏青海不发货）（</p>
+                    <p>￥16.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_1_2.jpg" alt="">
+                    <p>能里棒500g（20枚果仁巧克力威化饼千零食巧克力棒小</p>
+                    <p>￥23.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_1_3.jpg" alt="">
+                    <p>孩之宝无糖薄荷糖70克（新疆西藏青海不发货）（</p>
+                    <p>￥14.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_1_4.jpg" alt="">
+                    <p>雅客扭结天天棒棒糖果1.26k g约120支）装儿童礼物多口</p>
+                    <p>￥38.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_1_5.jpg" alt="">
+                    <p>海南春光混合口味椰子糖含榴莲味庆喜糖果250g</p>
+                    <p>￥17.90</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./images/buy_add_2_1.jpg" alt="">
+                    <p>广慈醒酒糖1包软糖芒果味（1自定义）</p>
+                    <p>￥12.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_2_2.jpg" alt="">
+                    <p>特惠装老式薄荷糖传统清京糖薄荷糖润喉去口气200</p>
+                    <p>￥19.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_2_3.jpg" alt="">
+                    <p>雅客软糖500芒果软糖果水果多口味结婚壹糖休闲零食</p>
+                    <p>￥21.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_2_4.jpg" alt="">
+                    <p>松露巧克力抹茶味100g盒结婚壹糖休闲零食</p>
+                    <p>￥11.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_2_5.jpg" alt="">
+                    <p>金津金银花罗汉果胖大海润喉糖9克新疆西藏璵台不</p>
+                    <p>￥19.90</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./images/buy_add_3_1.jpg" alt="">
+                    <p>【2斤清凉薄荷糖】提神润喉糖水果话梅硬糖散装糖果</p>
+                    <p>￥27.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_3_2.jpg" alt="">
+                    <p>刻凡【10支礼盒】星空星球手工棒棒糖糖果零食男女</p>
+                    <p>￥39.00</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_3_3.jpg" alt="">
+                    <p>雅客棒棒糖约66支休闲零食水果多口味儿童礼物网红桶</p>
+                    <p>￥31.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_3_4.jpg" alt="">
+                    <p>有个圈圈薄荷糖润喉硬糖果冰圈散装零食老式强劲清凉</p>
+                    <p>￥19.90</p>
+                </div>
+                <div>
+                    <img src="./images/buy_add_3_5.jpg" alt="">
+                    <p>吉祥果花生仁巧克力60克（60克花生仁巧克力）</p>
+                    <p>￥12.00</p>
+                </div>
+            </li>
+        </ul>
+        <em class="iconfont icon-changyongicon-2"></em>
+        <em class="iconfont icon-changyongicon-1"></em>
+    </div>
+    <!-- tab栏 -->
+    <div class="tab">
+        <div class="tabCon con">
+            <div class="left">
+                <div class="shop">
+                    <p><i>店铺名称</i><em class="iconfont icon-kefu"></em></p>
+                    <div>
+                        <i>服务评分：</i>
+                        <ul>
+                            <li><img src="./images/heartfullw.png" alt=""></li>
+                            <li><img src="./images/heartfullw.png" alt=""></li>
+                            <li><img src="./images/heartfullw.png" alt=""></li>
+                            <li><img src="./images/heartbetw.png" alt=""></li>
+                            <li>4.6分</li>
+                        </ul>
+                    </div>
+                    <p><span>评分明细</span><span>与行业对比</span></p>
+                    <p>商品描述：4.65 <span>63.96% <em class="iconfont icon-triangle-up"></em></span></p>
+                    <p>发货速度：4.65 <span>82.44% <em class="iconfont icon-triangle-up"></em></span></p>
+                    <p>服务质量：4.45 <span>20.07% <em class="iconfont icon-triangle-up"></em></span></p>
+                </div>
+                <div class="sopsearch">
+                    <p><i>店内搜索</i></p>
+                    <ul>
+                        <li><label for="sms">关键字：</label><input type="text" class="sms"></li>
+                        <li><label for="sms">价格：</label><input type="text" class="sms" placeholder="￥"><span>-</span><input type="text" class="sms" placeholder="￥"></li>
+                        <li><span>确定</span></li>
+                    </ul>
+                </div>
+                <div class="branch">
+                    <p><i>店铺商品分类</i></p>
+                    <p>全部分类商品</p>
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="select"><a href="javascript:void(0)">商品详情</a></li>
+                    <li><a href="javascript:void(0)">规格与包装</a></li>
+                    <li><a href="javascript:void(0)">商品评价</a></li>
+                    <li><a href="javascript:void(0)">售后保障</a></li>
+                    <li><a href="javascript:void(0)">小助手</a></li>
+                </ul>
+                <div class="detals select">
+                    <div>
+                        <ul>
+                            <li>商品名称：<i></i></li>
+                            <li>店铺名称：<i></i></li>
+                            <li>品牌：<i></i></li>
+                            <li>包装方式：<i></i></li>
+                            <li>保质期：<i></i></li>
+                            <li>储藏方式：<i></i></li>
+                        </ul>
+                    </div>
+                    <img src="./images/detal_style_1.jpg" alt="">
+                    <img src="./images/detal_style_2.jpg" alt="">
+                    <img src="./images/detal_style_3.jpg" alt="">
+                    <img src="./images/detal_style_4.jpg" alt="">
+                </div>
+                <div class="box">
+                    <p>如果您发现商品信息不准确，<a href="javascript:void(0)">欢迎纠错</a></p>
+                    <ul>
+                        <li>规格</li>
+                        <li>
+                            <ul>
+                                <li>主体</li>
+                                <li><span>品牌</span><span>雅克</span></li>
+                                <li><span>包装方式</span><span>袋装</span></li>
+                                <li><span>保质期</span><span>540天</span></li>
+                                <li><span>产地</span><span>福建</span></li>
+                                <li><span>储藏方式</span><span>存放于阴凉、封闭处</span></li>
+                                <li><span>净含量</span><span>210g</span></li>
+                                <li><span>口味</span><span>天天棒210g口味随机</span></li>
+                                <li><span>类别</span><span>棒棒糖</span></li>
+                                <li><span>使用方法</span><span>开袋即食</span></li>
+                                <li><span>特殊属性</span><span>家庭装、休闲聚会、办公室零食</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>包装清单</li>
+                                <li><span>天天棒210g口味随机安排</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>签收与验货流程</li>
+                                <li><img src="./images/process.jpg" alt=""></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="evalue">
+                    <ul>
+                        <li class="select">全部评论（377）</li>
+                        <li>晒图（7）</li>
+                        <li>好评（377）</li>
+                        <li>中评(0)</li>
+                        <li>差评（0）</li>
+                        <li>只看当前评论</li>
+                        <li>按默认<em class="iconfont icon-below-line"></em></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <p><img src="./images/comment_header_1.png" alt=""><i>珍**</i></p>
+                                <p><span>G3会员</span><span>湛江市</span></p>
+                            </div>
+                            <div class="right">
+                                <p>
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                    <img src="./images/comment_start.png" alt="">
+                                </p>
+                                <p>使用心得：棒棒糖已收到20支，草莓味小孩喜欢。味道不错</p>
+                                <p><img src="./images/comment_goods.png" alt=""></p>
+                                <p><span>天天棒210g口味随机安排自定义</span><span>收货后1天评价</span><span>202007-192022</span><i><em class="iconfont icom-duihao"></em> 赞同</i><i><em class="iconfont icon-liaotian"></em> 回复</i></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="after">
+                    <ul>
+                        <li>售后内容</li>
+                        <li>
+                            <img src="./images/detals_after_1.png" alt="">
+                            <p>温馨提示：1. 糖果按重量为准，不是以个数为准的哦。2. 巧克力由于天气热，运输途中容易导致融化，这个非质量问题，不影响食用的哦，亲可以把巧克力放入冰箱冷藏，再拿出食用哦！3. 小朋友请在大人的陪同下食用糖果，请勿吞咽！！！4. 面包类产品个别可能充气不足，加上快递的暴力运输，所以个别积压漏气在所难免，非质量问题哦，介意慎拍！外包装变形不影响食用，请正常签收，不做退换货处理哦！本店产品质量保证，收到货有任何问题及时联系客服处理哦，谢谢亲们理解。</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>售后承诺</li>
+                        <li><img src="./images/detals_after_2.png" alt="">
+                            <p>国美商城服务承诺：
+
+                                国美商城向您保证所售商品均为正品行货，国美商城自营商品自带机打发票，与商品一起寄送(部分商品，需在您收到货物之后，我司为您邮寄)。凭质保证书及国美商城发票，可享受全国联保服务，与您亲临商场选购的商品享受相同的质量保证。 温馨提示：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！</p>
+                        </li>
+                        <li>查看<a href="javascript:void(0)">第三方退换货政策</a></li>
+                    </ul>
+                    <ul>
+                        <li>售后服务</li>
+                        <li><img src="./images/detals_after_3.png" alt=""></li>
+                        <li>
+                            <ul>
+                                <li>价格说明：</li>
+                                <li>未划线价格：该价格是商品的销售标价，最终成交价格可能会因使用优惠券等原因而发生变化，请以订单结算页面价格为准.</li>
+                                <li>划线价格：该价格是商品的参考价，可能是商品的厂商指导价、正品零售价、商品吊牌价、品牌专柜价，或者是在国美平台上曾经晨示过的销售价等价格仅供您选购商品时参考。</li>
+                                <li>其他：1商品促销信息以商品详情页促销栏目中的信息为准：2如您发现活动商品售价或促销信息有异常，请购买前先联系销售商咨询。</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <p><i>【报价】</i><span>查看</span><a href="javascript:void(0)">雅客糖果巧克力相关价格表</a></p>
+                    <p><i>【报价】</i><span>查看</span><a href="javascript:void(0)">雅客糖果巧克力怎么样？</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部区域 -->
+    <div class="ibtn con">
+        <img src="./images/index_btn.png" alt="">
+    </div>
+    <div class="footer">
+        <footer class="con">
+            <p>
+                <a href="javascript:void(0)">国美控股集团</a>
+                <a href="javascript:void(0)">国美管家</a>
+                <a href="javascript:void(0)">关于国美</a>
+                <a href="javascript:void(0)">加入我们</a>
+                <a href="javascript:void(0)">品牌大全</a>
+                <a href="javascript:void(0)">商品专题</a>
+                <a href="javascript:void(0)">商品词</a>
+                <a href="javascript:void(0)">热词搜索</a>
+                <a href="javascript:void(0)">友情链接</a>
+                <a href="javascript:void(0)">风险监测</a>
+                <a href="javascript:void(0)">销售联盟</a>
+                <a href="javascript:void(0)">商家入驻</a>
+                <a href="javascript:void(0)">国美分销</a>
+            </p>
+            <p><span>本公司游戏产品适合18岁以上成年人使用违法和不良信息举报电话：</span><a href="javascript:void(0)">021-39900132
+                    互联网药品信息服务资格证编号（沪）经营性-2019-0006</a></p>
+            <p><span>网络食品销售第二方平台提供者备案：</span><a href="javascript:void(0)">沪网食备A0015号 网络文化经营许可证沪网文[2017]5537-436号
+                    增值电信业务经营许可证</a></p>
+            <p>客服电话:4008113333 沪CP备11009419号/原CP备 19011786号 京B220191290 经营执照 营业执照 出版物经营许可证</p>
+            <p>&copy;;20002020 国美在线电子商务有限公司版权所有 <span>京公网安备11010502038379号</span></p>
+            <ul>
+                <li><a href="javascript:void(0)">经世性网站备信</a></li>
+                <li><a href="javascript:void(0)">可倍网站信用评价</a></li>
+                <li><a href="javascript:void(0)">诚信网站</a></li>
+                <li><a href="javascript:void(0)">朝阳网络察</a></li>
+                <li><a href="javascript:void(0)">网购大家评</a></li>
+                <li><a href="javascript:void(0)">上海市互联网违法和不良信息举报中心</a></li>
+                <li><a href="javascript:void(0)">网上有害信息举报专区</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

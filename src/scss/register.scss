@@ -118,20 +118,44 @@ main{
         bottom: 0;
         margin: auto;
         width: 377px;
-        height: 560px;
+        min-height: 560px;
+        padding-top: 20px;
+        > div{
+            span{
+                display: block;
+                height: 25px;
+                line-height: 25px;
+                color: red;
+            }
+            input{
+                width: 183px;
+                height: 52px;
+                border: 1px solid #cccccc;
+                text-indent: 12px;
+            }
+            div{
+                float: right;
+                width: 183px;
+                height: 52px;
+                border: 1px solid #cccccc;
+            }
+            canvas{
+                width: 183px!important;
+                height: 52px!important;
+            }
+        }
         > p{
-            // text-align: center;
+            text-align: center;
             &:nth-of-type(6) input{
                 background-color: #ff4c4c;
-                font-size: 24px;
+                font-size: 18px;
                 color: white;
-                margin-top: 38px;
                 cursor: pointer;
                 border: none;
             }
             &:last-of-type{
                 text-align: left;
-                margin-top: 26px;
+                margin-top: 10px;
                 a{
                     padding-left: 32px;
                     background: url(../images/regiser_log.png) no-repeat left center;
